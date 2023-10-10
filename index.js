@@ -4,6 +4,7 @@ const $questionsContainer = document.querySelector(".questions-container")
 const $questionText = document.querySelector(".question")
 const $answersContainer = document.querySelector(".answers-container")
 const $answers = document.querySelectorAll(".answer")
+const $imagem = document.querySelector(".image")
 
 let currentQuestionIndex = 0
 let totalCorrect = 0
@@ -25,6 +26,12 @@ function displayNextQuestion() {
   }
 
   $questionText.textContent = questions[currentQuestionIndex].question
+  if (questions[currentQuestionIndex].imagem){
+    $imagem.src = questions[currentQuestionIndex].imagem
+    $imagem.style.display = "block"
+  } else {
+    $imagem.style.display = "none"
+  }
   questions[currentQuestionIndex].answers.forEach(answer => {
     const newAsnwer = document.createElement("button")
     newAsnwer.classList.add("button", "answer")
@@ -119,6 +126,7 @@ const questions = [
   },
   {
     question: "Onde é o lugar correto para inserir JavaScript?",
+    imagem: "./LOGO-ATUALIZADA.jpg",
     answers: [
       { text: "Tanto no <head> quanto no <body> está correto", correct: true },
       { text: "No <body>", correct: false },
