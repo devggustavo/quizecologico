@@ -125,7 +125,7 @@ const questions = [
     ]
   },
   { /* Questão 02 */
-    question: ": Quem são os consumidores primários em uma cadeia alimentar?",
+    question: "Quem são os consumidores primários em uma cadeia alimentar?",
     imagem: "./herbivoro_lagarta.jpg",
     answers: [
       { text: "Herbívoros;", correct: true },
