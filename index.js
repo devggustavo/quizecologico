@@ -121,7 +121,7 @@ const questions = [
       { text: "Consumir outros organismos;", correct: false },
       { text: "Decompor matéria orgânica;", correct: false },
       { text: "Fornecer energia para os consumidores;", correct: true },
-      { text: "Prever o clima", correct: false }
+      { text: "Prever o clima;", correct: false }
     ]
   },
   { /* Questão 02 */
@@ -169,7 +169,7 @@ const questions = [
       { text: 'Carnívoros;', correct: false },
       { text: 'Onívoros;', correct: true },
       { text: 'Decompositores;', correct: false },
-      { text: 'Herbívoros', correct: false }
+      { text: 'Herbívoros;', correct: false }
     ]
   },
   { /* Questão 07 */
@@ -263,7 +263,7 @@ const questions = [
     answers: [
       { text: 'Um organismo que se beneficia de uma relação mutualista;', correct: false },
       { text: 'Um organismo que fornece recursos para outros organismos;', correct: false },
-      { text: 'Um organismo que se alimenta apenas de plantas', correct: false },
+      { text: 'Um organismo que se alimenta apenas de plantas;', correct: false },
       { text: 'Um organismo que se alimenta de outros organismos;', correct: true }
     ]
   },
