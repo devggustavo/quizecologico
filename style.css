@@ -9,7 +9,10 @@ button {
 }
 
 body {
-  background-color: #121214;
+  background-image: url('.\\imagens\\teste2.jfif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #fff;
   height: 100vh;
   display: flex;
@@ -18,7 +21,7 @@ body {
 }
 
 .container {
-  background-color: #121214;
+  background-color: transparent;
   width: 90%;
   max-width: 800px;
 

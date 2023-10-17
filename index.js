@@ -1,10 +1,10 @@
-const $startGameButton = document.querySelector(".start-quiz")
+const $startGameButton    = document.querySelector(".start-quiz")
 const $nextQuestionButton = document.querySelector(".next-question")
 const $questionsContainer = document.querySelector(".questions-container")
-const $questionText = document.querySelector(".question")
-const $answersContainer = document.querySelector(".answers-container")
-const $answers = document.querySelectorAll(".answer")
-const $imagem = document.querySelector(".image")
+const $questionText       = document.querySelector(".question")
+const $answersContainer   = document.querySelector(".answers-container")
+const $answers            = document.querySelectorAll(".answer")
+const $imagem             = document.querySelector(".image")
 
 let currentQuestionIndex = 0
 let totalCorrect = 0
